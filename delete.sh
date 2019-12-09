@@ -1,5 +1,6 @@
 #!bin/sh
 echo "enter the path of the file to delete:"
 read var
-cd $var
-rm -rf $var
+p=find / -name "$var"
+cd $p
+rm -rf $p
