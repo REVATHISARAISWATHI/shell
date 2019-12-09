@@ -10,4 +10,5 @@ service jenkins start
 
 
 echo "initial admin password"
+
 cat  /var/lib/jenkins/secrets/initialAdminPassword
