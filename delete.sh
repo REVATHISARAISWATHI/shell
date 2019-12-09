@@ -4,6 +4,5 @@ read var
 x="find / -name "$var""
 eval "$x"
 y=$(eval "$x")
-echo "$y"
 cd $y
-rm -rf var
+rm -rf 
